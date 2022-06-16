@@ -1,5 +1,10 @@
 const fs = require('fs')
 
+/**
+ * The Simfile class for performing operations.
+ * @param {string} filePath
+ * @constructor
+ */
 class Simfile {
     constructor(filePath) {
         this.filePath = filePath;
